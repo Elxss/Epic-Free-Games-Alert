@@ -1,2 +1,2 @@
 # Epic-Free-Games-Alert
-Epic Games Free Games Script that send a Webhook when a new Free Games is Avaible
+This script uses the Epic Games Store API to get a list of available free games and checks if there are any new games that have been added since the last execution of the script. If a new game is detected, a webhook is sent to Discord with a link to the game's image. The script also records the list of game names in a file, so that games that have already been sent will not be resent on subsequent executions.
