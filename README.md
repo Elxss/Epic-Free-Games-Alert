@@ -117,7 +117,7 @@ _The installation is very fast only 4 steps_
 
 - [x] Get the free games available on the Epic Games via their Api.
 - [x] Send webhook on discord
-- [ ] Multi-language Support
+- [x] Multi-language Support => Just Have a Look on the 6 Step <a href="#installation">Here</a 
     - [x] English
     - [ ] French
     - [ ] Spanish
