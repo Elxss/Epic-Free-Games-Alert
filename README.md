@@ -25,7 +25,11 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#installation">Installation</a></li>
+    <li>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -100,6 +104,6 @@ _The installation is very fast only 2 steps_
 <!-- CONTACT -->
 ## Contact
 
-Elxss - discord: Eliasss#8886 - elxsscontact@gmail.com
+Elxss - discord: Eliasss#8886 - elxssgitcontact@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
