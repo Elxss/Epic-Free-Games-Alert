@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Elxss/Epic-Free-Games-Alert">
-    <img src="images/logo.png" alt="Logo" width="500" height="500">
+    <img src="images/logo.png" alt="Logo" width="250" height="250">
   </a>
 
   <h3 align="center">Epic Games Free Games Alert via Webhook</h3>
