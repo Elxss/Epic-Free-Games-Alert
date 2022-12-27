@@ -1,5 +1,6 @@
 {
-    "discord_webhook_url": "https://discordapp.com/api/webhooks/...",
+    "discord_webhook_url": "https://discord.com/api/webhooks/...",
     "country": "FR",
-    "history_filename": "games.txt"
+    "history_filename": "games.txt",
+    "time_between_request": 600
 }

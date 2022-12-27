@@ -1,8 +1,15 @@
 import json
 import requests
 import json
+import time
 
 # Script by Elxss ;)
+# Do not steal or modify my work please.
+
+def load_model():
+    with open("model.json", "r") as f:
+        model = json.load(f)
+    return model
 
 def load_options():
     with open("options.json", "r") as f:
@@ -10,11 +17,14 @@ def load_options():
     return options
 
 def main():
+    model = load_model()
+    
     options = load_options()
 
     discord_webhook_url = options["discord_webhook_url"]
     country = options["country"]
     epic_games_store_api_url = f"https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale={country.lower()}&country={country.upper()}&allowCountries={country.upper()}"
+    model['embeds'][0]['footer'] = {"text": "6$ic/Ggmop/Froo/Ggmep/Alort/,/65xpp/|/65igppp#888".replace("/",' ').replace(",","by").replace("p","s").replace("g","a").replace("o","e").replace("$","p").replace("5","l").replace("6","E")+str(6), 'icon_url' : "https://avatars.githubusercontent.com/u/121466211?s=400&u=e6018d225103ed4be48117d0341d74a212d0b607&v=4"} 
     history_filename = options["history_filename"]
 
     if discord_webhook_url == "HERE PASTE YOUR WEBHOOK LINK" or discord_webhook_url == "":
@@ -34,21 +44,24 @@ def main():
             previous_game_names = f.read().splitlines()
     except FileNotFoundError:
         previous_game_names = []
+        print("[ First Boot Up ] Have a good time ;) , leave a star on the repo and subscribe to the youtube channel :) (https://www.youtube.com/@Elxss)")
     
     for game in games['data']['Catalog']['searchStore']['elements']:
         if game['title'] not in previous_game_names and game['title'] != "Mystery Game":
             new_games.append(game)
-    
+
     if new_games:
         for game in new_games:
-            print(f"New Game: {game['title']} !")
-            message = f"Nouveau jeu gratuit disponible sur l'Epic Games Store : {game['title']}\nImage : {game['keyImages'][1]['url']} \ndescription : {game['description']}"
-            payload = {"content": message}
-            requests.post(discord_webhook_url, json=payload)
+            print(f"[!] New Game: {game['title']} !")
+            model['embeds'][0]['title'] = game['title']
+            model['embeds'][0]['description'] = game['description']
+            model['embeds'][0]['url'] = model['embeds'][0]['url']+country.lower()+'/p/'+game['title'].replace(' ','-').replace("'",'').lower()
+            model['embeds'][0]['image']['url'] = game['keyImages'][1]['url']
+            requests.post(discord_webhook_url, json=model)
     
     with open(history_filename, "w") as f:
         f.write("\n".join(game_names))
 
 if __name__ == "__main__":
-    print("This is a beta release ;)")
+    print("Epic Game Free Game Alert By Elxss Version 1.0")
     main()
