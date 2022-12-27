@@ -4,7 +4,7 @@ import json
 import time
 
 # Script by Elxss ;)
-# Do not steal or modify my work please.
+# Do not steal my work please.
 
 def load_model():
     with open("model.json", "r") as f:
