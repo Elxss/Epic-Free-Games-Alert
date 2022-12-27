@@ -74,11 +74,13 @@ _The installation is very fast only 4 steps_
     - Modify the country (FR,GB,US,...)
     - Add the webhook link
     - (Additionnal) If you want you can modify the history name
+    - [ ONLY FOR VERSION GUI ] you can modify the time between request
    ```json
     {
         "discord_webhook_url": "https://discordapp.com/api/webhooks/...",
         "country": "FR",
-        "history_filename": "games.txt"
+        "history_filename": "games.txt",
+        "time_between_request": 600
     }
    ```
 5. This is not a step, you're done ;) now run main.py and stay cool, if you enjoyed this project please show me by sending me a little message or a star thanks.
