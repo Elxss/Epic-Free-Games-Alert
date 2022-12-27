@@ -89,21 +89,21 @@ _The installation is very fast only 4 steps_
    - Do not change the title, description and url, if you change the url, the bot will not work.
    ```json
     {
-    "content": "New Free Game Available On The Epic Games Store !",
-    "embeds": [
-        {
-        "title": "DONT MODIFY THIS",
-        "description": "DONT MODIFY THIS",
-        "url": "https://store.epicgames.com/",
-        "color": 31487,
-        "image": {
-            "url": "https://raw.githubusercontent.com/Elxss/Epic-Free-Games-Alert/main/images/logo.png"
+      "content": "New Free Game Available On The Epic Games Store !",
+      "embeds": [
+          {
+          "title": "DONT MODIFY THIS",
+          "description": "DONT MODIFY THIS",
+          "url": "https://store.epicgames.com/",
+          "color": 31487,
+          "image": {
+              "url": "https://raw.githubusercontent.com/Elxss/Epic-Free-Games-Alert/main/images/logo.png"
+            }
           }
-        }
-    ],
-    "username": "Epic Games Free Game",
-    "avatar_url": "https://raw.githubusercontent.com/Elxss/Epic-Free-Games-Alert/main/images/logo.png",
-    "attachments": []
+      ],
+      "username": "Epic Games Free Game",
+      "avatar_url": "https://raw.githubusercontent.com/Elxss/Epic-Free-Games-Alert/main/images/logo.png",
+      "attachments": []
     }
    ```
 
