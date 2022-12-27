@@ -25,10 +25,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+    <li><a href="#installation">Installation</a></li>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
