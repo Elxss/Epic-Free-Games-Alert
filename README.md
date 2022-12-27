@@ -81,6 +81,7 @@ _The installation is very fast only 4 steps_
         "history_filename": "games.txt"
     }
    ```
+5. This is not a step, you're done ;) now run main.py and stay cool, if you enjoyed this project please show me by sending me a little message or a star thanks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
