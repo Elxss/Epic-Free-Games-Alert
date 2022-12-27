@@ -130,3 +130,5 @@ _The installation is very fast only 4 steps_
 Elxss - discord: Eliasss#8886 - elxssgitcontact@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="center">This is a Readme.md <a href="#readme-top">Template</a></p>
