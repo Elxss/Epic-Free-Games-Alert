@@ -62,7 +62,7 @@ To get a local copy up and running follow these simple example steps. -->
 
 ### Installation
 
-_The installation is very fast only 2 steps_
+_The installation is very fast only 4 steps_
 
 1. Python is required to run the project , you can download it directly from [https://www.python.org/](https://www.python.org/)
 2. Clone the repo or install it as a zip file
