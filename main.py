@@ -3,6 +3,7 @@ import requests
 import json
 import time
 
+# This Version is a Lite one , no gui ...
 # Script by Elxss ;)
 # Do not steal my work please.
 
@@ -24,7 +25,7 @@ def main():
     discord_webhook_url = options["discord_webhook_url"]
     country = options["country"]
     epic_games_store_api_url = f"https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale={country.lower()}&country={country.upper()}&allowCountries={country.upper()}"
-    model['embeds'][0]['footer'] = {"text": "6$ic/Ggmop/Froo/Ggmep/Alort/,/65xpp/|/65igppp#888".replace("/",' ').replace(",","by").replace("p","s").replace("g","a").replace("o","e").replace("$","p").replace("5","l").replace("6","E")+str(6), 'icon_url' : "https://avatars.githubusercontent.com/u/121466211?s=400&u=e6018d225103ed4be48117d0341d74a212d0b607&v=4"} 
+    model['embeds'][0]['footer'] = {"text": "Epic Games Free Games Alert "+",/65xpp/|/65igppp-888".replace("-",'#').replace("/",' ').replace(",","by").replace("p","s").replace("g","a").replace("o","e").replace("$","p").replace("5","l").replace("6","E")+str(6), 'icon_url' : "https://avatars.githubusercontent.com/u/121466211?s=400&u=e6018d225103ed4be48117d0341d74a212d0b607&v=4"} 
     history_filename = options["history_filename"]
 
     if discord_webhook_url == "HERE PASTE YOUR WEBHOOK LINK" or discord_webhook_url == "":
