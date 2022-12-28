@@ -86,14 +86,14 @@ _The installation is very fast only 4 steps_
 5. This is not a step, you're done ;) now run main.py and stay cool, if you enjoyed this project please show me by sending me a little message or a star thanks.
 
 6. [Additionnal Step] you can modify the model if you want for this modify the `model.json` file:
-   - Do not change the title, description and url, if you change the url, the bot will not work.
+   - You can change the segment before title, description but not the url, if you change the url, the bot will not work.
    ```json
     {
       "content": "New Free Game Available On The Epic Games Store !",
       "embeds": [
           {
-          "title": "DONT MODIFY THIS",
-          "description": "DONT MODIFY THIS",
+          "title": "",
+          "description": "",
           "url": "https://store.epicgames.com/",
           "color": 31487,
           "image": {
