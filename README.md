@@ -71,10 +71,10 @@ _The installation is very fast only 4 steps_
    ```
 3. Then, create a webhook on the desired server on discord
 4. And modify the configuration file:
-    \n• Modify the country (FR,GB,US,...)
-    \n• Add the webhook link
-    \n• (Additionnal) If you want you can modify the history name
-    \n• [ ONLY FOR VERSION GUI ] You can modify the time between request
+    - Modify the country (FR,GB,US,...)
+    - Add the webhook link
+    - (Additionnal) If you want you can modify the history name
+    - [ ONLY FOR VERSION GUI ] You can modify the time between request
    ```json
     {
         "discord_webhook_url": "https://discordapp.com/api/webhooks/...",
@@ -86,7 +86,7 @@ _The installation is very fast only 4 steps_
 5. This is not a step, you're done ;) now run main.py and stay cool, if you enjoyed this project please show me by sending me a little message or a star thanks.
 
 6. [Additionnal Step] you can modify the model if you want for this modify the `model.json` file:
-   • Do not change the title, description and url, if you change the url, the bot will not work.
+   - Do not change the title, description and url, if you change the url, the bot will not work.
    ```json
     {
       "content": "New Free Game Available On The Epic Games Store !",
