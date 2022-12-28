@@ -119,8 +119,8 @@ _The installation is very fast only 4 steps_
 - [x] Send webhook on discord
 - [x] Multi-language Support => Just Have a Look on the 6 Step <a href="#installation">Here</a>
     - [x] English
-    - [ ] French
-    - [ ] Spanish
+    - [ ] French => Do it yourself using [this](https://www.youtube.com/@Elxss) video
+    - [ ] Spanish => Do it yourself using [this](https://www.youtube.com/@Elxss) video
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
