@@ -11,7 +11,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/Elxss/Epic-Free-Games-Alert/images/demo.png">View Demo</a>
+    <a href="https://github.com/Elxss/Epic-Free-Games-Alert/blob/main/images/demo.png">View Demo</a>
     ·
     <a href="https://github.com/Elxss/Epic-Free-Games-Alert/issues">Report Bug</a>
     ·
