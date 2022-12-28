@@ -71,10 +71,10 @@ _The installation is very fast only 4 steps_
    ```
 3. Then, create a webhook on the desired server on discord
 4. And modify the configuration file:
-    • Modify the country (FR,GB,US,...)
-    • Add the webhook link
-    • (Additionnal) If you want you can modify the history name
-    • [ ONLY FOR VERSION GUI ] You can modify the time between request
+    \n• Modify the country (FR,GB,US,...)
+    \n• Add the webhook link
+    \n• (Additionnal) If you want you can modify the history name
+    \n• [ ONLY FOR VERSION GUI ] You can modify the time between request
    ```json
     {
         "discord_webhook_url": "https://discordapp.com/api/webhooks/...",
