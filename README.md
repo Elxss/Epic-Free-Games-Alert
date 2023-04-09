@@ -97,12 +97,12 @@ _The installation is very fast only 4 steps_
           "url": "https://store.epicgames.com/",
           "color": 31487,
           "image": {
-              "url": "https://raw.githubusercontent.com/Elxss/Epic-Free-Games-Alert/main/images/logo.png"
+              "url": "https://elxss.github.io/src/img/logo.png"
             }
           }
       ],
       "username": "Epic Games Free Game",
-      "avatar_url": "https://raw.githubusercontent.com/Elxss/Epic-Free-Games-Alert/main/images/logo.png",
+      "avatar_url": "https://elxss.github.io/src/img/logo.png",
       "attachments": []
     }
    ```
