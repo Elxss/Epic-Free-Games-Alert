@@ -124,7 +124,7 @@ _The installation is very fast only 4 steps_
 <!-- CONTACT -->
 ## Contact
 
-Elxss - discord: Eliasss#8886 - elxssgitcontact@gmail.com
+Elxss - discord: Eliasss#8886 - elxssgitcontact@gmail.com - website: elxss.github.io
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
