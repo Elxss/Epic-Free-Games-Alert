@@ -2,8 +2,8 @@
     "content": "New Free Game Available On The Epic Games Store !",
     "embeds": [
         {
-        "title": "DONT MODIFY THIS",
-        "description": "DONT MODIFY THIS",
+        "title": "",
+        "description": "",
         "url": "https://store.epicgames.com/",
         "color": 31487,
         "image": {
