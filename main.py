@@ -56,7 +56,7 @@ def main():
             print(f"[!] New Game: {game['title']} !")
             model['embeds'][0]['title'] = model['embeds'][0]['title']+game['title']
             model['embeds'][0]['description'] = model['embeds'][0]['description']+game['description']
-            model['embeds'][0]['url'] = model['embeds'][0]['url']+country.lower()+'/p/'+game['title'].replace(' ','-').replace("'",'').lower()
+            model['embeds'][0]['url'] = model['embeds'][0]['url']+country.lower()+'/p/'+game['title'].replace(":","").replace("-","").replace(' ','-').replace("'",'').lower()
             model['embeds'][0]['image']['url'] = game['keyImages'][1]['url']
             requests.post(discord_webhook_url, json=model)
     
