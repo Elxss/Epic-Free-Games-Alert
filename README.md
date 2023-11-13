@@ -64,6 +64,8 @@ To get a local copy up and running follow these simple example steps. -->
 
 _The installation is very fast only 4 steps_
 
+RIGHT NOW THE BOT ISN'T WORKING PROPERLY DUE TO STRING SERIALIZATION NEEDED I AM ON A WAY TO PUSH A NEW UPDATE BUT BECAUSE OF SCHOOL I AM KINDA BUSY Maybe in 1 or 2 weeks
+
 1. Python is required to run the project , you can download it directly from [https://www.python.org/](https://www.python.org/)
 2. Clone the repo or install it as a zip file
    ```sh
